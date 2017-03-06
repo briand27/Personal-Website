@@ -1,0 +1,138 @@
+*{
+  /*border: dashed lightblue 1px;*/
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: inherit;
+  text-align: center;
+}
+
+.navbar{
+
+  font: sans-serif;
+}
+
+h3{
+  font-size: 2em;
+  font-family: serif;
+  padding: 10px;
+  background-color: rgba(0,0,0,0);
+}
+
+h4{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding: 3px;
+  background-color: rgba(0,0,0,0);
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0);
+}
+
+a{
+  color: lightgray;
+  font-style: italic;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0);
+}
+
+img{
+  background-color: rgba(0,0,0,0);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+:visited{
+  color: gray;
+}
+
+.section{
+  border-bottom: 2px solid #aaaaaa;
+  padding: 80px .5em 100px .5em;
+}
+
+.content{
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  background-color: inherit;
+  border: solid rgba(100, 100, 100, 0.5) 2px;
+  /*border-bottom: solid #222222 3px;
+  border-right: solid #222222 2px;*/
+  border-radius: 10px;
+}
+
+.content h4{
+
+}
+
+.content p{
+
+}
+
+.content img{
+  width: 480px;
+  /*resize: horizontal;*/
+}
+
+#popup{
+  display: none;
+}
+
+#intro{
+  height: 60vh;
+  width: 100vw;
+  padding-top: 8em;
+  /*test*/
+  /*background-image: url("http://www.thephotoargus.com/wp-content/uploads/2015/08/kerry-park3.jpg");*/
+}
+
+#intro h1{
+  font-size: 8em;
+  /*margin-top: 1em;*/
+  padding: 20px;
+}
+
+#intro h3{
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+#intro p{
+  font-size: 1em;
+  padding: 3px;
+  color: gray;
+}
+
+#education{
+  background-color: lightgray;
+}
+
+#school{
+  padding: 1em .5em 1em .5em;
+  /*opacity: 0.1;*/
+}
+
+#school h4{
+  /*text-align: left*/
+}
+
+#school p{
+  /*text-align: left*/
+}
+
+#job{
+
+}
+
+#goals{
+  background-color: lightblue;
+}
+
+#more{
+  border: 0px;
+}

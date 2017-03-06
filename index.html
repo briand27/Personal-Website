@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <title>
       Brian Dai
     </title>
@@ -11,7 +11,7 @@
     <div class="navbar">
 
     </div>
-    <div id="intro">
+    <div class="section" id="intro">
       <h3>Hi! I'm</h3>
       <h1>Brian Dai</h1>
       <h3>University of Washington student, interested in
@@ -19,57 +19,73 @@
         <a href="https://www.youtube.com/watch?v=56MQPdgtFfQ&list=PLeKVYXkldwzjsWIblFDsxut70m7ZzDPzo" target="_blank">visual effects</a>,
         guitar and a whole lot more
       </h3>
-      <p>PS: Try hovering over some items you want to know more about</p>
+      <p id="trigger">
+        PS: Try hovering over some items you want to know more about
+        <p id="popup">Hey you did it!! Nothing too exciting here but find more elsewhere :)</p>
+      </p>
     </div>
-    <div class="education">
+    <div class="section" id="education">
       <h3>Education</h3>
-      <div class="school">
+      <div class="content" id="school">
         <h4>University of Washington, <em>3.97</em></h4>
         <p>2016 - Predicted 2020</p>
         <p>Intended Computer Science Major (and just maybe a minor in Physics)</p>
       </div>
-      <div class="school">
-        <h4>Acton Boxborough Regional High School</h4>
+      <div class="content" id="school">
+        <h4 id="trigger">
+          Acton Boxborough Regional High School
+          <p id="popup">Why did I put my high school? Well not to brag, but in
+            high school I was the varsity swim captain and made my way onto the
+            Boston Globe and Boston Heralds’ “All Scholastic Athletes” list, so
+            ya, you could say I’m kind of a big deal amongst the followers of
+            Massachusetts’ northern section’s high school swimming community…
+            oh god did I peak in high school?</p>
+        </h4>
         <p>2012 - 2016</p>
       </div>
     </div>
-    <div class="skills">
+    <div class="section" id="skills">
       <h3>Skills</h3>
-      <div class="skill">
+      <div class="content" id="skill">
         <h4>Object Oriented Programming</h4>
-
+        <p></p>
       </div>
-      <div class="skill">
-
+      <div class="content" id="skill">
+        <h4>Some languages</h4>
       </div>
-      <div class="skill">
+      <div class="content" id="skill">
         <h4>Self Taught Visual Effects Enthusiast</h4>
+        <p>For the past four years I have been creating music visualizers for a local artist</p>
+        <a href="https://www.youtube.com/watch?v=56MQPdgtFfQ&list=PLeKVYXkldwzjsWIblFDsxut70m7ZzDPzo" target="_blank"><img src="images/Lost.png" alt=""/></a>
       </div>
     </div>
-    <div class="experience">
+    <div class="section" id="experience">
       <h3>Experience</h3>
-      <div class="job">
+      <div class="content" id="job">
         <h4>AP Computer Science</h4>
+        <p>As a teacher's assistant for computer science, I </p>
       </div>
-      <div class="job">
+      <div class="content" id="job">
         <h4>Housing and Food Services</h4>
       </div>
-      <div class="job">
+      <div class="content" id="job">
         <h4>AB Tsunamis</h4>
       </div>
-      <div class="job">
+      <div class="content" id="job">
         <h4>Incrediflix</h4>
       </div>
     </div>
-    <div class="goals">
+    <div class="section" id="goals">
       <h3>Goals</h3>
-      I want to find my passion in the expansive and diverse world of computer science.
-      Currently, I hope to score internships to become more exposed to the industry.
+      <p>I want to find my passion in the expansive and diverse world of computer science.
+      Currently, I hope to score internships to become more exposed to the industry.</p>
     </div>
-    <div class="more">
+    <div class="section" id="more">
       <h3>More about Me</h3>
       <p>Interested? Connect with me! <a href="https://www.linkedin.com/in/brian-d-8030b2129/" target="_blank">LinkedIn</a></p>
       <p>Want to see the source of this page and more? <a href="https://github.com/briand27" target="_blank">Github</a></p>
     </div>
   </body>
+  <script src="src/jquery-3.1.1.min.js"></script>
+  <script src="src/main.js"></script>
 </html>
