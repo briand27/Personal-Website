@@ -50,7 +50,6 @@ img{
 }
 
 .section{
-  border-bottom: 2px solid #aaaaaa;
   padding: 80px .5em 100px .5em;
 }
 
@@ -96,8 +95,6 @@ img{
   padding-top: 8em;
   border-bottom: #1C0942;
   background-color: #4D357C;
-  /*test*/
-  /*background-image: url("http://www.thephotoargus.com/wp-content/uploads/2015/08/kerry-park3.jpg");*/
 }
 
 #intro h1{
